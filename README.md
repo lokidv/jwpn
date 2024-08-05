@@ -44,7 +44,7 @@ Restart=no
 [Install]
 WantedBy=multi-user.target
 
-systemctl enable --now wvpn.service 
+systemctl enable --now jwpn.service 
 
 
 you should upload install file to server
