@@ -17,10 +17,10 @@ sudo apt-get install nodejs -y
 
 
 
-git clone https://github.com/lokidv/wvpn.git
-mv wvpn/ /home
+git clone https://github.com/lokidv/jwpn.git
+mv jwpn/ /home
 cd /home
-cd wvpn
+cd jwpn
 
 
 
