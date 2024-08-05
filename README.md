@@ -29,7 +29,7 @@ npm i
 
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
-nano /etc/systemd/system/wvpn.service
+nano /etc/systemd/system/jwpn.service
 
 [Unit]
 Description=Tunnel WireGuard with udp2raw
@@ -38,7 +38,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-ExecStart=sudo node /home/wvpn/main.js
+ExecStart=sudo node /home/jwpn/main.js
 Restart=no
 
 [Install]
